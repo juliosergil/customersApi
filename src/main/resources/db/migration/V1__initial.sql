@@ -1,0 +1,7 @@
+-- V1_initial.sql
+CREATE TABLE customer(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(100) NOT NULL,
+	email VARCHAR(50) NOT NULL,
+	phone VARCHAR(25) NOT NULL
+);
